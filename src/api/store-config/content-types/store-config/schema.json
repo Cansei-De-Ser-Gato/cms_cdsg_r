@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "store_configs",
+  "info": {
+    "singularName": "store-config",
+    "pluralName": "store-configs",
+    "displayName": "Store Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "chave_api": {
+      "type": "text"
+    },
+    "manager_mail": {
+      "type": "email"
+    },
+    "contact_mail": {
+      "type": "email"
+    },
+    "support_mail": {
+      "type": "email"
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "loja_integrada"
+      ],
+      "default": "loja_integrada",
+      "required": true
+    }
+  }
+}
