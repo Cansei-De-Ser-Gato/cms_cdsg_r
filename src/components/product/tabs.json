@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_tabs",
+  "info": {
+    "displayName": "Tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

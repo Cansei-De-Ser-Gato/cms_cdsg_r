@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_discount_products",
+  "info": {
+    "displayName": "Products"
+  },
+  "options": {},
+  "attributes": {
+    "specific_sku": {
+      "type": "string"
+    },
+    "main_sku": {
+      "type": "string"
+    },
+    "min_quantity": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

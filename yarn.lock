@@ -1235,6 +1235,13 @@
     intl-messageformat "9.13.0"
     tslib "^2.1.0"
 
+"@googlemaps/js-api-loader@^1.15.1":
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/@googlemaps/js-api-loader/-/js-api-loader-1.16.1.tgz#db74c851f8e26a50f578a07c195a87e1fb60ae90"
+  integrity sha512-x6M48e2nkIrp1KGNwXEVMRTCzruBw/w1HItlhVXL6Lp5pKuTcJEfOCE4tjPk3n6kLcMuJYXE8aluYMmakn7tTw==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+
 "@internationalized/number@^3.1.1":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@internationalized/number/-/number-3.1.2.tgz#4482a6ac573acfb18efd354a42008af20da6c89c"
@@ -9427,6 +9434,18 @@ std-env@^3.0.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
+
+strapi-location-field-plugin@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/strapi-location-field-plugin/-/strapi-location-field-plugin-1.2.2.tgz#7f8e8e4f01e27e7b0e46624a780cfaf49c04d72b"
+  integrity sha512-HQIXEXld8ew6Hq7/77WfqYJYpC4mGidRlDuslgSUATZ9m8AH2m2rxmjOwT1FsJi233y2en/0CuzSOIVPXTzt9A==
+  dependencies:
+    "@googlemaps/js-api-loader" "^1.15.1"
+
+strapi-plugin-timezone-select@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-timezone-select/-/strapi-plugin-timezone-select-1.0.0.tgz#d8b881f257ce693cd07d9b5af093d420a58c292f"
+  integrity sha512-qCMkuP7LJju92t9STAX6ffFiz5OZyPyoixSDb9Xr41fcmCgd5yIYw0LZwef6fiIQuUK54Ht34XBI4DLs1hv24A==
 
 stream-browserify@^3.0.0:
   version "3.0.0"

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_discount_rules",
+  "info": {
+    "displayName": "Rules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "coupon_code": {
+      "type": "string"
+    },
+    "min_subtotal": {
+      "type": "decimal"
+    },
+    "Products": {
+      "displayName": "Products",
+      "type": "component",
+      "repeatable": false,
+      "component": "discount.products"
+    }
+  }
+}
