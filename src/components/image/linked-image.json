@@ -1,22 +1,30 @@
 {
   "collectionName": "components_image_linked_images",
   "info": {
-    "displayName": "Linked Image"
+    "displayName": "Linked Image",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Url": {
+    "url": {
       "type": "string"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
     }
   }
 }
